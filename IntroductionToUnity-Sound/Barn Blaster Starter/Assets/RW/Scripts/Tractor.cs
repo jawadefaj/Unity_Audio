@@ -75,6 +75,7 @@ public class Tractor : MonoBehaviour
         if (col.gameObject.GetComponent<Animal>() && !col.gameObject.GetComponent<Animal>().isDead)
         {
             Destroy(col.gameObject);
+            audioSource.PlayOneShot(deathSound);
         }
     }
 }

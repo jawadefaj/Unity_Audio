@@ -36,6 +36,13 @@ public class Animal : MonoBehaviour
     private float speed = 9f;
     public bool isDead = false;
 
+    void Start()
+    {
+        AudioSource audioSource = GetComponent<AudioSource>();
+        audioSource.pitch = Random.Range(0.8f, 1.5f);
+        audioSource.Play();
+    }
+
     void Update()
     {
         transform.Translate(new Vector3(0, 0, speed * Time.deltaTime));

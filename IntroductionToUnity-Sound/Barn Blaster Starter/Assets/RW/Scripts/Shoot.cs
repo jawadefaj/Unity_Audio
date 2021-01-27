@@ -40,7 +40,7 @@ public class Shoot : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
-            GameObject randomAnimal = animals[Random.Range(0, animals.Length)];
+            GameObject randomAnimal = animals[Random.Range(0, 0)];
 
             // Load animal prefab
             Instantiate(randomAnimal, transform.position, transform.rotation);
