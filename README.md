@@ -3,4 +3,4 @@
 
 
 ## Presentation
-https://docs.google.com/presentation/d/1Zg8-4Gvzy6uw6Aegi9d0PE4j3upmksGJzYpouSNuP2s/edit#slide=id.gb910f518ad_0_47
+https://docs.google.com/presentation/d/1Zg8-4Gvzy6uw6Aegi9d0PE4j3upmksGJzYpouSNuP2s/edit?usp=sharing
